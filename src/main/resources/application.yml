@@ -1,0 +1,18 @@
+popbill:
+  taxinvoice:
+    linkID: TESTER
+    secretKey: SwWxqU+0TErBXy/9TVjIPEnI0VTUMMSQZtJf3Ed8q3I=
+    test: true
+    useStaticIP: true 
+    useLocalTimeYN: true
+    IPRestrectOnOff: true
+  cashbill:
+    link-id: TESTER
+    secret-key: SwWxqU+0TErBXy/9TVjIPEnI0VTUMMSQZtJf3Ed8q3I=
+    test: true
+    use-static-ip: true
+    use-local-time-yn: true
+
+spring:
+  profiles:
+    active: dev
